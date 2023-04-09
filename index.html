@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Grafos</title>
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+
+    <div class="contenedor">
+        <article class="articulos">
+            <div class="diana">
+            <img src="img/imagen.png" width="300" height="300"> 
+            </div>          
+        </article>  <!--Termino del primer article  -->
+
+        <article class="articulos" id="contenedorTabla">
+            <h3>Puede cambiar los Números de tiros en el codigo fuente </h3>
+            <table id="tabla"></table>
+             <a class="boton" href="index.html">Refrescar</a>  
+        </article>  <!--Termino del segundo article  -->
+
+        <article class="articulos tres">
+            <h1>Gráfico</h1>
+            <!-- Elemento canvas donde se dibujará el gráfico -->
+            <canvas id="grafica" ></canvas>
+
+        </article>  <!--Termino del tercer article  -->
+        
+        
+    <!-- Importando la librería chart.js desde un CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@latest/dist/Chart.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
+
